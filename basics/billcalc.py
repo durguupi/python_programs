@@ -17,3 +17,4 @@ bill_with_tip = bill + (bill * (percent / 100))
 final = bill_with_tip / spiltbill
 roundoff = round(final, 2)
 print(f"Each person should pay: ${roundoff}")
+print("Have a happy day")
