@@ -51,6 +51,10 @@ print(f"Even list : {even_list}")
 # The ord() function returns the number representing the unicode code of a specified character.
 print(ord('b'))
 
+# yield function provides output and continue
+# return function provides output and stop
+# The chr() function returns the character that represents the specified unicode.
+
 
 def character_range(char1, char2):
     for char in range(ord(char1), ord(char2) + 1):
